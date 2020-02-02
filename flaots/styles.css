@@ -18,10 +18,7 @@
   background-color: #F5CF8E;    /* Yellow */
 }
 
-.footer {
-  height: 200px;
-  background-color: #D6E9FE;
-}
+
 .sidebar {
   float:left;
   width: 200px;
@@ -38,15 +35,34 @@
     overflow: hidden;
     background-color: #EAEDF0;
   }
-.footer {
-  clear: both;
-  height: 200px;
-  background-color: #D6E9FE;
-}
+
+  .footer {
+    height: 200px;
+    background-color: #D6E9FE;    /* Light blue */
+  }
 .column {
   float: left;
-  width: 31%;
+  width: 20%;
   margin: 20px 1.15%;
   height: 160px;
   background-color: #B2D6FF;    /* Medium blue */
+}
+.footer {
+  overflow: hidden;
+  background-color: #D6E9FE;
+}
+.content {
+  padding: 20px;
+}
+
+.article-image {
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
 }
