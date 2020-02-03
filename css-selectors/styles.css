@@ -1,17 +1,17 @@
 .call-to-action:link,
 .call-to-action:visited {
-  background-color: #D55C5F;    /* Red */
+  background-color: #D55C5F;
 }
 .synopsis em {
   font-style: normal;
 }
 
-.button:link,                 /* Change this */
-.button:visited {             /* Change this */
-  display: block;             /* Add this */
-  text-decoration: none;      /* Add this */
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
 
-  color: #FFF;                /* The rest is the same */
+  color: #FFF;
   background-color: #5995DA;
   font-weight: bold;
   padding: 20px;
@@ -24,33 +24,33 @@
 }
 .call-to-action {
   font-style: italic;
-  background-color: #EEB75A;    /* Yellow */
+  background-color: #EEB75A;
 }
 .button:hover,
 .button:visited:hover {
   color: #FFF;
-  background-color: #76AEED;  /* Light blue */
+  background-color: #76AEED;
 }
 .button:active,
 .button:visited:active {
   color: #FFF;
-  background-color: #5995DA;  /* Blue */
+  background-color: #5995DA;
 }
 .call-to-action:link,
 .call-to-action:visited {
   font-style: italic;
-  background-color: #EEB75A;     /* Yellow */
+  background-color: #EEB75A;
 }
 
 .call-to-action:hover,
 .call-to-action:visited:hover {
-  background-color: #F5CF8E;     /* Light yellow */
+  background-color: #F5CF8E;
 }
 
 .call-to-action:active,
 .call-to-action:visited:active {
-  background-color: #EEB75A;     /* Yellow */
+  background-color: #EEB75A;
 }
 #button-2 {
-  background-color: #D55C5F;    /* Red */
+  background-color: #D55C5F;
 }
