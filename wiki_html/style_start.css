@@ -12,7 +12,7 @@ a {
 text-decoration: none;
 }
 .italic {
-	#Italicize text
+  font-style: italic;
 }
 .contents {
 
@@ -31,27 +31,27 @@ width: 500px;
 margin:auto;
 }
 table, th, td {
-	#Thin black border
-	#How do you make the borders one thin line instead of two?
+ border: thin solid black;
+border-collapse: collapse;
 }
 th {
-	#Medium-colored background
+background-color:#e67300;
 }
 td {
-	#Light-colored background
+background-color: #D3D3D3;
 }
 caption {
-	#Make this bold
+  font-weight: bold;
 }
 .gallery {
-	#Remove bullets
+	list-style-type: none;
 }
 .gallerybox {
-	#Display horizontally using the display property
-	#Width of 220 pixels
-	#Align the divs by the top of each picture
+display: inline-flex;
+flex-wrap: wrap;
+	width: 220px;
 }
 .gallerythumb img {
-	#Width of 200 pixels
-	#Height of 100 pixels
+width:200px;
+height: 100px;
 }
